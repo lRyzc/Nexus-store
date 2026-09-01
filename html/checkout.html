@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nexus Store | Finalizar Compra</title>
+
+    <!-- SEO: checkout não deve ser indexado -->
+    <meta name="description" content="Finalize seu pedido na Nexus Store.">
+    <meta name="author" content="Raul Vieira Batista">
+    <meta name="robots" content="noindex, nofollow">
+</head>
+
+<body>
+
+    <header>
+        <h1>NEXUS STORE</h1>
+        <p>Finalizar compra</p>
+
+        <nav aria-label="Menu principal">
+            <a href="index.html">1. Início</a> |
+            <a href="categorias.html">2. Categorias</a> |
+            <a href="produtos.html">3. Produtos</a> |
+            <a href="comparacao.html">4. Comparação</a> |
+            <a href="checkout.html">5. Comprar</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+
+        <h2>Finalizar pedido</h2>
+
+        <p>
+            Preencha os dados necessários para realizar
+            a simulação da compra.
+        </p>
+
+        <!-- Formulário demonstrativo, sem backend -->
+        <form action="#" method="post">
+
+            <fieldset>
+                <legend>1. Dados pessoais</legend>
+
+                <p>
+                    <label for="nome">Nome completo:</label>
+                    <br>
+                    <input
+                        type="text"
+                        id="nome"
+                        name="nome"
+                        minlength="3"
+                        maxlength="100"
+                        autocomplete="name"
+                        required
+                    >
+                </p>
+
+                <p>
+                    <label for="email">E-mail:</label>
+                    <br>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        autocomplete="email"
+                        placeholder="nome@exemplo.com"
+                        required
+                    >
+                </p>
+
+                <p>
+                    <label for="telefone">Telefone:</label>
+                    <br>
+                    <input
+                        type="tel"
+                        id="telefone"
+                        name="telefone"
+                        autocomplete="tel"
+                        placeholder="(00) 00000-0000"
+                        required
+                    >
+                </p>
+
+                <p>
+                    <label for="nascimento">Data de nascimento:</label>
+                    <br>
+                    <input
+                        type="date"
+                        id="nascimento"
+                        name="nascimento"
+                    >
+                </p>
+
+                <p>
+                    <label for="cpf">CPF:</label>
+                    <br>
+                    <input
+                        type="text"
+                        id="cpf"
+                        name="cpf"
+                        inputmode="numeric"
+                        placeholder="000.000.000-00"
+                        required
+                    >
+                </p>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>2. Endereço de entrega</legend>
+
+                <p>
+                    <label for="cep">CEP:</label>
+                    <br>
+                    <input
+                        type="text"
+                        id="cep"
+                        name="cep"
+                        inputmode="numeric"
+                        autocomplete="postal-code"
+                        required
+                    >
+                </p>
+
+                <p>
+                    <label for="endereco">Endereço:</label>
+                    <br>
+                    <input
+                        type="text"
+                        id="endereco"
+                        name="endereco"
+                        autocomplete="street-address"
+                        required
+                    >
+                </p>
+
+                <p>
+                    <label for="numero">Número:</label>
+                    <br>
+                    <input
+                        type="number"
+                        id="numero"
+                        name="numero"
+                        min="1"
+                        required
+                    >
+                </p>
+
+                <p>
+                    <label for="complemento">Complemento:</label>
+                    <br>
+                    <input
+                        type="text"
+                        id="complemento"
+                        name="complemento"
+                        placeholder="Apartamento, bloco..."
+                    >
+                </p>
+
+                <p>
+                    <label for="cidade">Cidade:</label>
+                    <br>
+                    <input
+                        type="text"
+                        id="cidade"
+                        name="cidade"
+                        autocomplete="address-level2"
+                        required
+                    >
+                </p>
+
+                <p>
+                    <label for="estado">Estado:</label>
+                    <br>
+
+                    <select id="estado" name="estado" required>
+
+                        <option value="">Selecione</option>
+
+                        <optgroup label="Nordeste">
+                            <option value="PB">Paraíba</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="CE">Ceará</option>
+                            <option value="BA">Bahia</option>
+                        </optgroup>
+
+                        <optgroup label="Sudeste">
+                            <option value="SP">São Paulo</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="MG">Minas Gerais</option>
+                        </optgroup>
+
+                    </select>
+                </p>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>3. Produto</legend>
+
+                <p>
+                    <label for="produto">Escolha o produto:</label>
+                    <br>
+
+                    <select id="produto" name="produto" required>
+                        <option value="">Selecione</option>
+                        <option value="pc">Nexus Gaming PC X1</option>
+                        <option value="gpu">Nexus RTX X70</option>
+                        <option value="teclado">Nexus Keyboard K1</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="quantidade">Quantidade:</label>
+                    <br>
+
+                    <input
+                        type="number"
+                        id="quantidade"
+                        name="quantidade"
+                        min="1"
+                        max="10"
+                        value="1"
+                        required
+                    >
+                </p>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>4. Forma de pagamento</legend>
+
+                <!-- Mesmo name permite apenas uma opção -->
+                <input
+                    type="radio"
+                    id="pix"
+                    name="pagamento"
+                    value="pix"
+                    required
+                >
+                <label for="pix">PIX</label>
+
+                <br>
+
+                <input
+                    type="radio"
+                    id="credito"
+                    name="pagamento"
+                    value="credito"
+                >
+                <label for="credito">Cartão de crédito</label>
+
+                <br>
+
+                <input
+                    type="radio"
+                    id="boleto"
+                    name="pagamento"
+                    value="boleto"
+                >
+                <label for="boleto">Boleto bancário</label>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>5. Tipo de entrega</legend>
+
+                <input
+                    type="radio"
+                    id="normal"
+                    name="entrega"
+                    value="normal"
+                    required
+                >
+                <label for="normal">
+                    Normal - 7 a 12 dias úteis
+                </label>
+
+                <br>
+
+                <input
+                    type="radio"
+                    id="expressa"
+                    name="entrega"
+                    value="expressa"
+                >
+                <label for="expressa">
+                    Expressa - 2 a 5 dias úteis
+                </label>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>6. Preferências</legend>
+
+                <input
+                    type="checkbox"
+                    id="newsletter"
+                    name="newsletter"
+                >
+                <label for="newsletter">
+                    Quero receber novidades por e-mail.
+                </label>
+
+                <br>
+
+                <input
+                    type="checkbox"
+                    id="ofertas"
+                    name="ofertas"
+                >
+                <label for="ofertas">
+                    Quero receber promoções.
+                </label>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>7. Observações</legend>
+
+                <label for="observacoes">
+                    Informações adicionais:
+                </label>
+
+                <br>
+
+                <textarea
+                    id="observacoes"
+                    name="observacoes"
+                    rows="6"
+                    cols="50"
+                    maxlength="500"
+                    placeholder="Digite uma observação sobre seu pedido..."
+                ></textarea>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>8. Confirmação</legend>
+
+                <input
+                    type="checkbox"
+                    id="termos"
+                    name="termos"
+                    required
+                >
+
+                <label for="termos">
+                    Confirmo que li e aceito os termos da Nexus Store.
+                </label>
+            </fieldset>
+
+            <br>
+
+            <button type="submit">
+                Finalizar pedido
+            </button>
+
+            <button type="reset">
+                Limpar formulário
+            </button>
+
+        </form>
+
+        <hr>
+
+        <section>
+            <h2>Perguntas frequentes</h2>
+
+            <!-- details funciona nativamente sem JavaScript -->
+            <details>
+                <summary>Posso alterar meu pedido?</summary>
+
+                <p>
+                    Alterações dependem do estágio de
+                    processamento do pedido.
+                </p>
+            </details>
+
+            <details>
+                <summary>Quais pagamentos são aceitos?</summary>
+
+                <p>
+                    PIX, cartão de crédito e boleto bancário.
+                </p>
+            </details>
+
+            <details>
+                <summary>Existe garantia?</summary>
+
+                <p>
+                    Sim. O período depende do produto selecionado.
+                </p>
+            </details>
+        </section>
+
+        <hr>
+
+        <!-- Navegação direta da página 5 para a página 3 -->
+        <nav aria-label="Navegação entre páginas">
+            <a href="produtos.html">← Voltar para a Página 3</a> |
+            <a href="index.html">Voltar para a Página 1</a>
+        </nav>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <nav aria-label="Menu do rodapé">
+            <a href="index.html">Início</a> |
+            <a href="categorias.html">Categorias</a> |
+            <a href="produtos.html">Produtos</a> |
+            <a href="comparacao.html">Comparação</a>
+        </nav>
+
+        <p>&copy; 2026 Nexus Store.</p>
+    </footer>
+
+</body>
+</html>
