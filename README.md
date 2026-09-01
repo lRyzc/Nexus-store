@@ -1,54 +1,55 @@
 # Nexus Store
 
-Projeto acadêmico de uma loja virtual desenvolvido exclusivamente com HTML5.
+Projeto acadêmico de uma loja virtual desenvolvido com HTML5.
 
-O objetivo do projeto é aplicar conceitos fundamentais de desenvolvimento web utilizando HTML puro, sem CSS, JavaScript, frameworks ou bibliotecas externas.
+O objetivo é demonstrar conceitos fundamentais de desenvolvimento web sem CSS, JavaScript, frameworks ou bibliotecas externas. O conteúdo, os produtos e os preços são fictícios.
 
-## Funcionalidades
+## Recursos utilizados
 
-- Navegação entre múltiplas páginas
-- Links internos e externos
-- Estrutura semântica HTML5
-- Formulários
-- Tabelas
-- Listas
-- Imagens e figuras
-- Elementos de acessibilidade
-- Meta tags para SEO
-- Open Graph
-- Elementos interativos nativos do HTML
+- estrutura semântica do HTML5;
+- metatags para descrição, autoria, indexação e Open Graph;
+- navegação entre múltiplas páginas;
+- listas, tabelas, imagens e figuras;
+- formulário com diferentes tipos de campos;
+- elementos nativos como `details`, `meter` e `progress`;
+- atributos de acessibilidade.
 
 ## Páginas
 
-- `index.html` - Página inicial
-- `categorias.html` - Categorias de produtos
-- `produtos.html` - Catálogo de produtos
-- `comparacao.html` - Comparação de produtos
-- `checkout.html` - Formulário de compra
-
-## Tecnologias
-
-- HTML5
-
-> O projeto foi desenvolvido sem CSS e JavaScript, conforme os requisitos da atividade acadêmica.
+- `index.html`: página inicial;
+- `html/categorias.html`: categorias de produtos;
+- `html/produtos.html`: catálogo completo;
+- `html/comparacao.html`: comparação entre produtos;
+- `html/checkout.html`: formulário demonstrativo de compra.
 
 ## Estrutura
 
 ```text
-nexus-store/
+Nexus-store/
 ├── index.html
-├── categorias.html
-├── produtos.html
-├── comparacao.html
-├── checkout.html
+├── html/
+│   ├── categorias.html
+│   ├── produtos.html
+│   ├── comparacao.html
+│   └── checkout.html
 ├── img/
-│   ├── PC.jpg
-│   ├── RTX5090.jpg
-│   ├── teclado.jpg
-│   ├── finalmouse-frostlord.jpg
-│   ├── yuki-aim-monokuru.jpg
-│   ├── rog-strix-oled-27.jpg
-│   └── ryzen-7-7800x3d.jpg
-├── README.md
+├── .gitignore
 ├── LICENSE
-└── .gitignore
+└── README.md
+```
+
+## Como visualizar
+
+1. Baixe ou clone este repositório.
+2. Abra o arquivo `index.html` em um navegador.
+3. Use o menu para navegar entre as páginas.
+
+O formulário de compra é apenas demonstrativo e não envia nem armazena dados.
+
+## Autor
+
+Raul Vieira Batista
+
+## Licença
+
+Este projeto utiliza a [Licença MIT](LICENSE), que permite estudar, baixar, executar e modificar o código, desde que o aviso da licença seja mantido.

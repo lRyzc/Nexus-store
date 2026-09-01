@@ -1,0 +1,12 @@
+# Arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configurações locais de editores
+.vscode/
+.idea/
+
+# Arquivos temporários
+*.tmp
+*.bak
+*~
