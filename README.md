@@ -39,7 +39,16 @@ nexus-store/
 ├── index.html
 ├── categorias.html
 ├── produtos.html
+├── comparacao.html
 ├── checkout.html
-├── imagens/
+├── img/
+│   ├── PC.jpg
+│   ├── RTX5090.jpg
+│   ├── teclado.jpg
+│   ├── finalmouse-frostlord.jpg
+│   ├── yuki-aim-monokuru.jpg
+│   ├── rog-strix-oled-27.jpg
+│   └── ryzen-7-7800x3d.jpg
 ├── README.md
-└── LICENSE
+├── LICENSE
+└── .gitignore
