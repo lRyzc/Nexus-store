@@ -43,5 +43,4 @@ nexus-store/
 ├── checkout.html
 ├── imagens/
 ├── README.md
-├── LICENSE
-└── .gitignore
+└── LICENSE
