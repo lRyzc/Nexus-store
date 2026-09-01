@@ -39,7 +39,6 @@ nexus-store/
 ├── index.html
 ├── categorias.html
 ├── produtos.html
-├── comparacao.html
 ├── checkout.html
 ├── imagens/
 ├── README.md
