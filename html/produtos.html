@@ -12,12 +12,6 @@
     <meta name="keywords" content="computador gamer, RTX 5090, Ryzen 7 7800X3D, Finalmouse, Yuki Aim, monitor OLED, hardware">
     <meta name="author" content="Raul Vieira Batista">
     <meta name="robots" content="index, follow">
-
-    <!-- Open Graph define a prévia exibida ao compartilhar a página. -->
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Produtos | Nexus Store">
-    <meta property="og:description" content="Hardware, computadores e periféricos de alto desempenho.">
-    <meta property="og:locale" content="pt_BR">
 </head>
 
 <body>
@@ -27,11 +21,12 @@
         <p>Produtos</p>
 
         <nav aria-label="Menu principal">
-            <a href="../index.html">1. Início</a> |
-            <a href="categorias.html">2. Categorias</a> |
-            <a href="produtos.html">3. Produtos</a> |
-            <a href="comparacao.html">4. Comparação</a> |
-            <a href="checkout.html">5. Comprar</a>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="categorias.html">Categorias</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="checkout.html">Comprar</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -40,6 +35,21 @@
     <main>
 
         <h2>Produtos disponíveis</h2>
+
+        <nav aria-label="Atalhos do catálogo">
+            <p><strong>Ir para um produto:</strong></p>
+            <ul>
+                <li><a href="#produto-pc">Nexus Gaming PC X1</a></li>
+                <li><a href="#produto-gpu">ASUS ROG Astral RTX 5090 White</a></li>
+                <li><a href="#produto-teclado">Nexus Keyboard K1</a></li>
+                <li><a href="#produto-finalmouse">Finalmouse Centerpiece Frostlord</a></li>
+                <li><a href="#produto-mousepad">Yuki Aim Glass Mousepad Monokuro</a></li>
+                <li><a href="#produto-monitor">ASUS ROG Strix OLED 27</a></li>
+                <li><a href="#produto-7800x3d">AMD Ryzen 7 7800X3D</a></li>
+            </ul>
+        </nav>
+
+        <hr>
 
         <article id="produto-pc">
 
@@ -63,17 +73,19 @@
                 executar aplicações extremamente exigentes.
             </p>
 
-            <h4>Especificações</h4>
+            <details>
+                <summary>Ver especificações</summary>
 
-            <ul>
-                <li>Processador AMD Ryzen 7 9800X3D</li>
-                <li>Placa-mãe ASUS ROG Strix X870E-E Gaming WiFi</li>
-                <li>Water Cooler ASUS ROG Strix LC IV 360 ARGB LCD</li>
-                <li>64 GB de memória RAM DDR5 G.Skill Trident Z Royal 6400 MHz</li>
-                <li>SSD NVMe WD Black de 2 TB</li>
-                <li>Placa de vídeo ASUS ROG Astral GeForce RTX 5090 White</li>
-                <li>Fonte ASUS ROG Thor 1600W 80 Plus Platinum</li>
-            </ul>
+                <ul>
+                    <li>Processador AMD Ryzen 7 9800X3D</li>
+                    <li>Placa-mãe ASUS ROG Strix X870E-E Gaming WiFi</li>
+                    <li>Water Cooler ASUS ROG Strix LC IV 360 ARGB LCD</li>
+                    <li>64 GB de memória RAM DDR5 G.Skill Trident Z Royal 6400 MHz</li>
+                    <li>SSD NVMe WD Black de 2 TB</li>
+                    <li>Placa de vídeo ASUS ROG Astral GeForce RTX 5090 White</li>
+                    <li>Fonte ASUS ROG Thor 1600W 80 Plus Platinum</li>
+                </ul>
+            </details>
 
             <p>
                 <del>R$ 65.499,90</del>
@@ -116,19 +128,21 @@
                 da geração GeForce RTX 50.
             </p>
 
-            <h4>Especificações</h4>
+            <details>
+                <summary>Ver especificações</summary>
 
-            <ul>
-                <li>Arquitetura NVIDIA Blackwell</li>
-                <li>32 GB de memória GDDR7</li>
-                <li>Interface de memória de 512 bits</li>
-                <li>21.760 CUDA Cores</li>
-                <li>Ray Tracing por hardware</li>
-                <li>Suporte a DLSS 4</li>
-                <li>Suporte a resoluções de até 8K</li>
-                <li>Codificação e decodificação de vídeo por hardware</li>
-                <li>Sistema de refrigeração ROG Astral</li>
-            </ul>
+                <ul>
+                    <li>Arquitetura NVIDIA Blackwell</li>
+                    <li>32 GB de memória GDDR7</li>
+                    <li>Interface de memória de 512 bits</li>
+                    <li>21.760 CUDA Cores</li>
+                    <li>Ray Tracing por hardware</li>
+                    <li>Suporte a DLSS 4</li>
+                    <li>Suporte a resoluções de até 8K</li>
+                    <li>Codificação e decodificação de vídeo por hardware</li>
+                    <li>Sistema de refrigeração ROG Astral</li>
+                </ul>
+            </details>
 
             <p>
                 <del>R$ 40.999,90</del>
@@ -167,15 +181,17 @@
                 disponível para movimentação do mouse.
             </p>
 
-            <h4>Especificações</h4>
+            <details>
+                <summary>Ver especificações</summary>
 
-            <ul>
-                <li>Switches ópticos UFO</li>
-                <li>Formato compacto</li>
-                <li>Cabo removível</li>
-                <li>Teclas multimídia</li>
-                <li>Construção voltada para jogos competitivos</li>
-            </ul>
+                <ul>
+                    <li>Switches ópticos UFO</li>
+                    <li>Formato compacto</li>
+                    <li>Cabo removível</li>
+                    <li>Teclas multimídia</li>
+                    <li>Construção voltada para jogos competitivos</li>
+                </ul>
+            </details>
 
             <p>
                 <strong>R$ 1.499,90</strong>
@@ -230,18 +246,20 @@
                 controle durante movimentos rápidos.
             </p>
 
-            <h4>Especificações</h4>
+            <details>
+                <summary>Ver especificações</summary>
 
-            <ul>
-                <li>Mouse gamer sem fio</li>
-                <li>Construção ultraleve</li>
-                <li>Sensor óptico de alta precisão</li>
-                <li>Baixa latência para jogos competitivos</li>
-                <li>Alta taxa de polling</li>
-                <li>Design Finalmouse Frostlord</li>
-                <li>Formato desenvolvido para movimentos rápidos</li>
-                <li>Edição especial</li>
-            </ul>
+                <ul>
+                    <li>Mouse gamer sem fio</li>
+                    <li>Construção ultraleve</li>
+                    <li>Sensor óptico de alta precisão</li>
+                    <li>Baixa latência para jogos competitivos</li>
+                    <li>Alta taxa de polling</li>
+                    <li>Design Finalmouse Frostlord</li>
+                    <li>Formato desenvolvido para movimentos rápidos</li>
+                    <li>Edição especial</li>
+                </ul>
+            </details>
 
             <p>
                 <strong>R$ 2.499,90</strong>
@@ -296,17 +314,19 @@
                 que utilizam baixa sensibilidade.
             </p>
 
-            <h4>Especificações</h4>
+            <details>
+                <summary>Ver especificações</summary>
 
-            <ul>
-                <li>Superfície rígida de vidro</li>
-                <li>Baixo atrito</li>
-                <li>Deslizamento rápido e consistente</li>
-                <li>Superfície fácil de limpar</li>
-                <li>Base desenvolvida para maior estabilidade</li>
-                <li>Indicado para jogos competitivos</li>
-                <li>Design Yuki Aim Monokuro</li>
-            </ul>
+                <ul>
+                    <li>Superfície rígida de vidro</li>
+                    <li>Baixo atrito</li>
+                    <li>Deslizamento rápido e consistente</li>
+                    <li>Superfície fácil de limpar</li>
+                    <li>Base desenvolvida para maior estabilidade</li>
+                    <li>Indicado para jogos competitivos</li>
+                    <li>Design Yuki Aim Monokuro</li>
+                </ul>
+            </details>
 
             <p>
                 <strong>R$ 999,90</strong>
@@ -348,18 +368,20 @@
                 competitivos e experiências visuais de alta qualidade.
             </p>
 
-            <h4>Especificações</h4>
+            <details>
+                <summary>Ver especificações</summary>
 
-            <ul>
-                <li>Tela de 27 polegadas</li>
-                <li>Painel OLED</li>
-                <li>Resolução QHD 2560 x 1440</li>
-                <li>Taxa de atualização de 240 Hz</li>
-                <li>Tempo de resposta extremamente baixo</li>
-                <li>Suporte a HDR</li>
-                <li>Tecnologia Adaptive-Sync</li>
-                <li>Indicado para jogos competitivos e uso multimídia</li>
-            </ul>
+                <ul>
+                    <li>Tela de 27 polegadas</li>
+                    <li>Painel OLED</li>
+                    <li>Resolução QHD 2560 x 1440</li>
+                    <li>Taxa de atualização de 240 Hz</li>
+                    <li>Tempo de resposta extremamente baixo</li>
+                    <li>Suporte a HDR</li>
+                    <li>Tecnologia Adaptive-Sync</li>
+                    <li>Indicado para jogos competitivos e uso multimídia</li>
+                </ul>
+            </details>
 
             <p>
                 <del>R$ 5.499,90</del>
@@ -402,20 +424,22 @@
                 jogos dependentes do processador.
             </p>
 
-            <h4>Especificações</h4>
+            <details>
+                <summary>Ver especificações</summary>
 
-            <ul>
-                <li>Arquitetura AMD Zen 4</li>
-                <li>8 núcleos</li>
-                <li>16 threads</li>
-                <li>Clock máximo de até 5,0 GHz</li>
-                <li>96 MB de cache L3</li>
-                <li>Tecnologia AMD 3D V-Cache</li>
-                <li>TDP de 120 W</li>
-                <li>Socket AM5</li>
-                <li>Suporte a memória DDR5</li>
-                <li>Suporte a PCI Express 5.0</li>
-            </ul>
+                <ul>
+                    <li>Arquitetura AMD Zen 4</li>
+                    <li>8 núcleos</li>
+                    <li>16 threads</li>
+                    <li>Clock máximo de até 5,0 GHz</li>
+                    <li>96 MB de cache L3</li>
+                    <li>Tecnologia AMD 3D V-Cache</li>
+                    <li>TDP de 120 W</li>
+                    <li>Socket AM5</li>
+                    <li>Suporte a memória DDR5</li>
+                    <li>Suporte a PCI Express 5.0</li>
+                </ul>
+            </details>
 
             <p>
                 <del>R$ 3.299,90</del>
@@ -435,72 +459,6 @@
 
         <section>
 
-            <h2>Resumo dos produtos</h2>
-
-            <table>
-
-                <caption>Comparação resumida de preços</caption>
-
-                <thead>
-                    <tr>
-                        <th scope="col">Produto</th>
-                        <th scope="col">Categoria</th>
-                        <th scope="col">Preço</th>
-                    </tr>
-                </thead>
-
-                <tbody>
-                    <tr>
-                        <td>Nexus Gaming PC X1</td>
-                        <td>Computador</td>
-                        <td>R$ 50.999,90</td>
-                    </tr>
-
-                    <tr>
-                        <td>ROG Astral RTX 5090 White</td>
-                        <td>Placa de vídeo</td>
-                        <td>R$ 30.299,90</td>
-                    </tr>
-
-                    <tr>
-                        <td>Nexus Keyboard K1</td>
-                        <td>Teclado</td>
-                        <td>R$ 1.499,90</td>
-                    </tr>
-
-                    <tr>
-                        <td>Finalmouse Frostlord</td>
-                        <td>Mouse</td>
-                        <td>R$ 2.499,90</td>
-                    </tr>
-
-                    <tr>
-                        <td>Yuki Aim Monokuro</td>
-                        <td>Mousepad</td>
-                        <td>R$ 999,90</td>
-                    </tr>
-
-                    <tr>
-                        <td>ROG Strix OLED 27</td>
-                        <td>Monitor</td>
-                        <td>R$ 4.499,90</td>
-                    </tr>
-
-                    <tr>
-                        <td>Ryzen 7 7800X3D</td>
-                        <td>Processador</td>
-                        <td>R$ 2.799,90</td>
-                    </tr>
-                </tbody>
-
-            </table>
-
-        </section>
-
-        <hr>
-
-        <section>
-
             <h2>Processamento dos pedidos</h2>
 
             <p>Tempo médio de preparação:</p>
@@ -514,10 +472,10 @@
         <hr>
 
         <nav aria-label="Navegação entre páginas">
-            <a href="../index.html">Página 1</a> |
-            <a href="categorias.html">Página 2</a> |
-            <a href="comparacao.html">Página 4</a> |
-            <a href="checkout.html">Página 5</a>
+            <ul>
+                <li><a href="categorias.html">← Ver categorias</a></li>
+                <li><a href="checkout.html">Ir para a compra →</a></li>
+            </ul>
         </nav>
 
     </main>
@@ -525,6 +483,15 @@
     <hr>
 
     <footer>
+        <nav aria-label="Menu do rodapé">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="categorias.html">Categorias</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="checkout.html">Comprar</a></li>
+            </ul>
+        </nav>
+
         <p>&copy; 2026 Nexus Store.</p>
     </footer>
 

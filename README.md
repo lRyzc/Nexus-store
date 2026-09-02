@@ -7,7 +7,7 @@ O objetivo é demonstrar conceitos fundamentais de desenvolvimento web sem CSS, 
 ## Recursos utilizados
 
 - estrutura semântica do HTML5;
-- metatags para descrição, autoria, indexação e Open Graph;
+- metatags para descrição, autoria e indexação;
 - navegação entre múltiplas páginas;
 - listas, tabelas, imagens e figuras;
 - formulário com diferentes tipos de campos;
@@ -16,21 +16,19 @@ O objetivo é demonstrar conceitos fundamentais de desenvolvimento web sem CSS, 
 
 ## Páginas
 
-- `index.html`: página inicial;
+- `html/index.html`: página inicial;
 - `html/categorias.html`: categorias de produtos;
 - `html/produtos.html`: catálogo completo;
-- `html/comparacao.html`: comparação entre produtos;
 - `html/checkout.html`: formulário demonstrativo de compra.
 
 ## Estrutura
 
 ```text
 Nexus-store/
-├── index.html
 ├── html/
+│   ├── index.html
 │   ├── categorias.html
 │   ├── produtos.html
-│   ├── comparacao.html
 │   └── checkout.html
 ├── img/
 ├── .gitignore
@@ -41,7 +39,7 @@ Nexus-store/
 ## Como visualizar
 
 1. Baixe ou clone este repositório.
-2. Abra o arquivo `index.html` em um navegador.
+2. Abra o arquivo `html/index.html` em um navegador.
 3. Use o menu para navegar entre as páginas.
 
 O formulário de compra é apenas demonstrativo e não envia nem armazena dados.
